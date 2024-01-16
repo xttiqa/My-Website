@@ -1,0 +1,316 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+/* COVER AWAL */
+
+.cover-awal {
+    background-image: url('./galeri/541740.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height : 613px;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    height: 235px;
+    vertical-align: middle;
+}
+
+.judul-awal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.deskripsi-awal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* NAVBAR */
+.about {
+    border: solid 1px;
+}
+
+.navbar {
+    background-color: rgb(155, 102, 185);
+    top : 0px;
+    position: sticky;
+    height : 49px;
+}
+
+.foto-profil {
+    width : 40px;
+    border: solid 2px rgb(107, 57, 136);
+    border-radius: 45px;
+    margin-left : 10px;
+    margin-top : 2.5px;
+}
+
+.ul-navbar {
+    list-style: none;
+    float: right;
+    margin: 0px;
+}
+
+.ul-navbar .li-navbar {
+    display: inline-block;
+    padding : 15px 20px;
+    transition-duration: 0.5s;
+}
+
+.a-navbar {}
+
+.ul-navbar .li-navbar:hover{
+    background-color : rgb(107, 57, 136);
+}
+
+.ul-navbar .li-navbar:active {
+    background-color : rgb(55, 21, 75);
+}
+
+.ul-navbar .a-navbar .li-navbar {
+    color : white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* ABOUT */
+
+/* About 1 */
+.about {
+    border : none;
+    padding : 25px;
+}
+
+.about-1 {
+    padding : 20px;
+}
+
+.foto-about-box-1 {
+    text-align: center;
+}
+
+.foto-about-1 {
+    width : 200px;
+    border-radius : 200px;
+    border : solid 3px rgb(107, 57, 136);
+}
+
+.kata-about-1 {
+    margin-top : 5px;
+    text-align: center;
+    font-size : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(107, 57, 136);
+    font-weight: 600;
+}
+
+/* About 2 */
+.about-2 {
+    /* border : solid 1px; */
+}
+
+.foto-about-2 {
+    width : 200px;
+    border-radius : 200px;
+    border : solid 3px rgb(107, 57, 136);
+}
+
+.ul-about {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.li-about {
+    /* border : solid 1px; */
+    width : 400px;
+}
+
+.ul-about .li-about {
+    display: inline-block;
+    text-align: center;
+    margin : 10px;
+}
+
+.kata-about-2 {
+    margin-top : 5px;
+    text-align: center;
+    font-size : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(107, 57, 136);
+    font-weight: 600;
+}
+
+.kata-about-3 {
+    margin-top : 5px;
+    text-align: center;
+    font-size : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(107, 57, 136);
+    font-weight: 600;
+}
+
+/* GALLERY */
+.gallery {
+    background-color: rgb(221, 161, 255);
+    padding: 40px;
+    /* border : solid 1px; */
+}
+
+.judul-gallery {
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: rgb(107, 57, 136);
+    /* border : solid 1px; */
+    margin-bottom : 30px;
+}
+
+.foto-gallery {
+    width : 300px;
+    border-radius: 10px;
+    border : solid 3px rgb(107, 57, 136);
+    /* filter : grayscale(100%);
+    transition-duration: 0.5s; */
+}
+
+/* .foto-gallery:hover {
+    filter: grayscale(0%);
+} */
+
+.foto-gallery-box {
+    /* border : solid 1px; */
+    text-align: center;
+}
+
+/* MESSAGE */
+.message {
+    padding : 20px;
+    background-color:  rgb(234, 199, 255);
+}
+
+.judul-message {
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: rgb(107, 57, 136);
+    margin : 20px;
+}
+
+
+form {
+    border : solid 1px rgb(199, 199, 199);
+    border-radius: 15px;
+    text-align: center;
+    margin : 40px;
+    padding : 15px;
+    background-color: rgb(199, 199, 199);
+}
+
+label {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 102, 185);
+}
+
+input {
+    font-size: 15px;
+    width : 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 191, 224);
+    border : solid 1px rgb(112, 32, 158);;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 191, 224);
+    border : solid 1px rgb(112, 32, 158);
+}
+
+button {
+    background-color: rgb(155, 102, 185);
+    border : none;
+    padding : 5px 20px;
+    border-radius: 20px;
+    color : white;
+    box-shadow: 0px 3px 6px black;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    box-shadow: 0px 3px 2px white;
+    background-color: rgb(112, 32, 158);
+}
+
+/* CONTACT */
+.contact {
+    /* border: solid 1px; */
+    background-color: rgb(112, 32, 158);
+    margin: 0;
+    padding : 20px;
+}
+
+.judul-contact {
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: white;
+    /* border : solid 1px; */
+    margin : 20px;
+}
+
+.icon-contact {
+    width : 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nama-icon {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color :white;
+    font-weight: 600;
+}
+
+.ul-contact {
+    list-style: none;
+    /* border : solid 1px; */
+    text-align: center;
+    margin : 40px;
+}
+
+.ul-contact .a-contact .li-contact {
+    display: inline-block;
+    padding : 5px 10px;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-right : 50px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgb(155, 102, 185);
+    padding: 20px;
+}
+
+.judul-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color : white;
+}
+
